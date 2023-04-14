@@ -30,6 +30,13 @@ class MainActivity : AppCompatActivity() {
         val altura = editTextAltura.text.toString()
         val peso = editTextPeso.text.toString()
 
+        val intent = Intent(this,MostrarDadosActivity::class.java)
+        intent.putExtra("name", nome)
+        intent.putExtra("telefone", telefone)
+        intent.putExtra("email", email)
+        intent.putExtra("altura", altura)
+        intent.putExtra("peso", peso)
+        startActivity(intent)
 
     }
 }

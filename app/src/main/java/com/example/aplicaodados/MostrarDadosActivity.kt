@@ -1,6 +1,5 @@
 package com.example.aplicaodados
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -23,11 +22,11 @@ class MostrarDadosActivity : AppCompatActivity()  {
         val altura = intent.getStringExtra("height")
         val peso = intent.getStringExtra("weight")
 
-        TextViewNome.text = "Nome: $nome"
-        TextViewTelefone.text = "Telefone: $telefone"
-        TextViewEmail.text = "Email: $email"
-        TextViewAltura.text = "Altura: $altura"
-        TextViewPeso.text = "Peso: $peso"
+        TextViewNome.text = nome
+        TextViewTelefone.text = telefone
+        TextViewEmail.text = email
+        TextViewAltura.text = altura
+        TextViewPeso.text = peso
 
 
     }
