@@ -7,8 +7,8 @@
 
     <TextView
         android:id="@+id/textViewNome"
-        android:layout_width="178dp"
-        android:layout_height="28dp"
+        android:layout_width="403dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.453"
@@ -18,46 +18,46 @@
 
     <TextView
         android:id="@+id/textViewTelefone"
-        android:layout_width="178dp"
-        android:layout_height="28dp"
+        android:layout_width="383dp"
+        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewNome"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.134" />
 
     <TextView
         android:id="@+id/textViewEmail"
-        android:layout_width="178dp"
-        android:layout_height="28dp"
+        android:layout_width="407dp"
+        android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTelefone"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/textViewAltura"
-        android:layout_width="178dp"
-        android:layout_height="28dp"
+        android:layout_width="409dp"
+        android:layout_height="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.126" />
 
     <TextView
         android:id="@+id/textViewPeso"
-        android:layout_width="178dp"
-        android:layout_height="28dp"
+        android:layout_width="424dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewAltura"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.147" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

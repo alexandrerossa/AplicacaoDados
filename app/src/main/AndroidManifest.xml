@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicaçãoDados"
         tools:targetApi="31">
+        <activity android:name=".MostrarDadosActivity"
+            android:label="Dados do Utilizador"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
